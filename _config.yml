@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                    : "minimal-mistakes-jekyll"
+#theme                    : "minimal-mistakes-jekyll"
 #remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "default", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -20,7 +20,7 @@ title                    : "database"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "SIEUN WOO"
-description              : "University Student. Study"
+description              : "Student / Kyungpook National Univ. / Records of studying / Interest in Backend, AI"
 url                      : "https://WOOSIEUN.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "WOOSIEUN/WOOSIEUN.github.io"
@@ -30,9 +30,9 @@ masthead_title           : "EUN"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : SIEUNWOO # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -52,7 +52,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
-search_full_content      : # true, false (default)
+search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -97,17 +97,17 @@ author:
   name             : "SIEUN WOO"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Student / Kyungpook National Univ. / Records of studying / Interest in Backend, AI"
-  location         : "KOREA"
+  location         : "Republic of Korea"
   email            : "ramtk6726@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:ramtk6726@naver.com"
-      #    - label: "Website"
-      #icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-      #    - label: "Twitter"
-      #icon: "fab fa-fw fa-twitter-square"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://WOOSIEUN.github.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
@@ -115,15 +115,15 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/WOOSIEUN"
-      #    - label: "Instagram"
-      #icon: "fab fa-fw fa-instagram"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-      #    - label: "Twitter"
-      #icon: "fab fa-fw fa-twitter-square"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
@@ -131,14 +131,14 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/WOOSIEUN"
-      #    - label: "GitLab"
-      #icon: "fab fa-fw fa-gitlab"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
       # url:
-      #    - label: "Bitbucket"
-      #icon: "fab fa-fw fa-bitbucket"
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
       # url:
-      #    - label: "Instagram"
-      #icon: "fab fa-fw fa-instagram"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
       # url:
 
 
@@ -247,16 +247,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-   enabled:
-     - categories
-     - tags
-   layouts:
-     category: archive-taxonomy
-     tag: archive-taxonomy
-   permalinks:
-     category: /categories/:name/
-     tag: /tags/:name/
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
 
 
 # HTML Compression
